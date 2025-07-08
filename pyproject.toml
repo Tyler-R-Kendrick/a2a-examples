@@ -1,0 +1,13 @@
+[project]
+name = "a2a_examples"
+version = "0.1.0"
+dependencies = [
+    "a2a-sdk",
+    "httpx",
+    "uvicorn",
+    "click",
+]
+
+[tool.pytest.ini_options]
+addopts = "-vv"
+
