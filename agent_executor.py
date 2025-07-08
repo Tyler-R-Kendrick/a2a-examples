@@ -61,6 +61,7 @@ class EchoReverseAgentExecutor(AgentExecutor):
             )
         )
 
-    async def cancel(self, context: RequestContext, event_queue: EventQueue) -> None:
+    async def cancel(
+        self, context: RequestContext, event_queue: EventQueue
+    ) -> None:
         raise Exception("cancel not supported")
-

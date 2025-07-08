@@ -1,8 +1,7 @@
 from __future__ import annotations
 import importlib
 import pkgutil
-from dataclasses import dataclass
-from typing import Iterable, List, Protocol
+from typing import List, Protocol
 
 
 class Agent(Protocol):
