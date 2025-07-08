@@ -14,3 +14,15 @@ python3 main.py
 The orchestrator will discover agents defined in the `agents/` package and run
 them sequentially.
 
+
+## Development
+
+Install development dependencies and run the checks used in CI:
+
+```bash
+pip install flake8 build pytest pytest-asyncio
+pip install -e .
+flake8 .
+python -m build
+pytest
+```

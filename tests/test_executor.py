@@ -1,11 +1,22 @@
-import asyncio
-
 import pytest
 from a2a.server.agent_execution.context import RequestContext
 from a2a.server.events.event_queue import EventQueue
-from a2a.types import Message, MessageSendParams, Part, Role, TextPart, TaskArtifactUpdateEvent, TaskStatusUpdateEvent, TaskState
+from a2a.types import (
+    Message,
+    MessageSendParams,
+    Part,
+    Role,
+    TextPart,
+    TaskArtifactUpdateEvent,
+    TaskStatusUpdateEvent,
+    TaskState,
+)
 
-from agent_executor import EchoReverseAgentExecutor
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from agent_executor import EchoReverseAgentExecutor  # noqa: E402
 
 
 @pytest.mark.asyncio
