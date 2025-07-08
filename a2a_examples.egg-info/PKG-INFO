@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: a2a_examples
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: a2a-sdk
+Requires-Dist: httpx
+Requires-Dist: uvicorn
+Requires-Dist: click
+Dynamic: license-file

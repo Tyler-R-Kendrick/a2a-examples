@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+a2a_examples.egg-info/PKG-INFO
+a2a_examples.egg-info/SOURCES.txt
+a2a_examples.egg-info/dependency_links.txt
+a2a_examples.egg-info/requires.txt
+a2a_examples.egg-info/top_level.txt
+agents/__init__.py
+agents/echo_agent.py
+agents/reverse_agent.py
+tests/test_discovery.py
+tests/test_executor.py
